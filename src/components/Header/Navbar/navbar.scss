@@ -16,6 +16,7 @@
 .icon-box {
     width: 30px;
     margin-right: 5px;
+    filter: contrast(15%);
     cursor: pointer;
 }
 
@@ -23,6 +24,7 @@
     width: 40px;
     height: 40px;
     cursor: pointer;
+    filter: contrast(55%);
 }
 
 .middle-items {
@@ -41,7 +43,7 @@
 }
 
 .link-light {
-    color: #171f46;
+    color: #343434;
     text-decoration: none;
 }
 

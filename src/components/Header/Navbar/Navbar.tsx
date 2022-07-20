@@ -6,6 +6,7 @@ import sun from '../../../assets/icons/sun.svg';
 import box from '../../../assets/icons/box.svg'
 import Search from '../../Search/Search';
 import './navbar.scss';
+import Cart from '../../Cart/Cart';
 
 const Navbar = () => {
     return (
@@ -29,6 +30,12 @@ const Navbar = () => {
                                     <li className="list-item">
                                         <Link to="/meus-pedidos" className="link-light">
                                             Meus pedidos
+                                        </Link>
+                                    </li>
+                                    <Cart />
+                                    <li className="list-item">
+                                        <Link to="/meu-carrinho" className="link-light">
+                                            Carrinho
                                         </Link>
                                     </li>
                                 </ul>

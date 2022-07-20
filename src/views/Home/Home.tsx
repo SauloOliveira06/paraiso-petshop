@@ -1,4 +1,4 @@
-import ThemeContext from '../context/ThemeContext';
+import ThemeContext from '../../context/ThemeContext';
 import './home.scss';
 
 const Home = () => (
