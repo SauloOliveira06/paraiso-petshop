@@ -19,6 +19,18 @@
         color: #343434;
         font-weight: 500;
 
+        &:after {
+            display: block;
+            content: '';
+            border-bottom: 3px solid #007a00;
+            transform: scaleX(0);
+            transition: transform 200ms ease-in-out;
+        }
+
+        &:hover::after {
+            transform: scaleX(1);
+        }
+
         &:hover {
             color: #007a00;
             transition: 1s;
